@@ -5,7 +5,7 @@ class Player
     @lives = 3
     @name = name
   end
-
+  
   def minus_life
     if @lives > 0
       @lives -= 1
@@ -13,9 +13,4 @@ class Player
   end
   
 end
-
-# tony = Player.new("Tony")
-
-# p tony.minus_life
-# p tony
 

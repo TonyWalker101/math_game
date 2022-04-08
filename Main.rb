@@ -1,6 +1,7 @@
-require './Player'
-require './Turn'
 require './Game'
-require './Question'
 
-start
+players = ARGV
+new_game = Game.new(players)
+
+new_game.game_on
+new_game.game_over
